@@ -24,8 +24,8 @@ def stochastic_hill_climbing(bounds, max_iterations, step_size):
         # Check if the new candidate is better
         if new_candidate_eval < candidate_eval:
             candidate, candidate_eval = new_candidate, new_candidate_eval
-            ## (Optinal) Print of the iterations
-            ##print(f"Iteration {i}, new best candidate: {candidate}, value: {candidate_eval}")
+            # (Optinal) Print of the iterations
+            #print(f"Iteration {i}, new best candidate: {candidate}, value: {candidate_eval}")
     
     return candidate, candidate_eval
 
