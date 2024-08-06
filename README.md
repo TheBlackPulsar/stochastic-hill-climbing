@@ -1,2 +1,3 @@
 # stochastic_hill_climbing
-A function optimization using stochastic hill climbing on a function that was a black-box at the moment of coding
+
+In connection to my lecture in natural computing I had to perform a python optimization code of my choice on a black-boxed function that was saved on a server in my univesitys network. I decided to use stochastical hill climbing and wrote the code in my file. After we finished we got the code of the function and I adjusted my file to use the functions code out of another file so it is also usable outside of the universitys private network
